@@ -1,0 +1,27 @@
+package nitroTests;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+
+public class RegistrationTests {
+	
+	
+	@Given("user in the home page")
+	public void user_in_the_home_page() {
+		System.out.println("user logged in to the application - Registration page");
+
+	}
+
+	@Given("make registration")
+	public void make_registration(io.cucumber.datatable.DataTable dataTable) {
+	    
+	}
+
+	@Then("verify registration is successful")
+	public void verify_registration_is_successful() {
+	    
+		
+	}
+
+
+}

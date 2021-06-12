@@ -1,0 +1,10 @@
+package nitroPages;
+
+public class LoginPage {
+	
+	public By txt_login_username = By.name("username");
+	public By txt_login_password = By.name("passwordd");
+	public By btn_login = By.xpath("//*[@id=\"loginPanel\"]/form/div[3]/input");
+	
+
+}

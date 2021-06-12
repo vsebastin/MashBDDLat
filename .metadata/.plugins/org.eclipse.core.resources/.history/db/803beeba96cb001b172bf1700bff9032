@@ -1,0 +1,29 @@
+package nitroTests;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+
+public class LoginTests {
+	
+	
+	@Given("user in the login page")
+	public void user_in_the_login_page() {
+	   
+		
+	}
+
+	@Given("user input valid credentials")
+	public void user_input_valid_credentials() {
+	   
+		
+		
+	}
+
+	@Then("user sucessfully login into the application")
+	public void user_sucessfully_login_into_the_application() {
+	   
+		
+		
+	}
+	
+}
